@@ -38,7 +38,7 @@ var getData = function() {
 
             //img.src = data.html_url;
             span.innerHTML = `${data.name} ${data.login} ${data.id} ${data.followers_url} (${data.repos_url.name}) ${data.gists_url} (${data.starred_url})`;
-            document.getElementById('repos-container').style.display = 'none'
+            
             append(li, img);
             append(li, span);
             append(ul, li);

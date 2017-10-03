@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
     <title>Github Search</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="icon"  href="../img/github_favicon.ico">
+    <script src="https://use.fontawesome.com/70a14eed93.js"></script>
 </head>
 
 <body>
     <h1 class="header">GITHUB SEARCH</h1>
+    <img id="githubIcon" src="../img/github.svg">
     <div class="wrapper">
         <form action='/search' method='get'>
             <div class="search">
@@ -18,7 +21,9 @@
         </div>
     </div>
     <ul id="users">
-        <h1>Users</h1>
+        <h1 class="usersHeader">Users</h1>
+        <li id="image"></li>
+        <li></li>
         <li id="repos-ul">
         </li>
         <div id="repos-container">
