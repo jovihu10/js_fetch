@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Github Search</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 
 <body>
@@ -13,11 +13,8 @@
         <form action='/search' method='get'>
             <div class="search">
                 <input type="text" id="search-user" name="search" placeholder="Search.." name="title">
-                <button class="search-button" type="button" value="Search" onclick="getData()"></button>
-            </div>
-        </form>
-    </div>
-    <h1>Users</h1>
+                <button class="search-button" type="button" value="Search" onclick="getData()">Search</button>
+                <h1>Users</h1>
     <ul id="users">
         <div id="repos-container">
     </div>
@@ -25,10 +22,16 @@
     </div>
     </ul>
     
+        </form>
+    </div>
+            </div>
+            
+    
 
-    <!-- poner el submit en el button -->
-    <script src="js/app.js">
+    
+    <script src="../js/main.js">
     </script>
+    <script src="../server/app.js"
 </body>
 
 </html>

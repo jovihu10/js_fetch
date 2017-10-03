@@ -10,11 +10,15 @@ body {
 
 
 .wrapper {
-    width: 50%;
-    height: 150px;
+    width: 70%;
+    height:150px;
     display: flex;
     border: 1px solid black;
     background: white;
+}
+
+.wrapper:active{
+    height: 700px;
 }
 
 #fieldSearch {
@@ -51,11 +55,12 @@ form {
     justify-content: center;
 }
 
-#buttonSearch {
-    background: #F7F7F7;
-    display: flex;
-    justify-content: center;
+
+.search-button{ƒ
+    margin-left:2%;
+    border-radius: 2px;
 }
+
 
 #fieldSearch {
     margin: auto;
