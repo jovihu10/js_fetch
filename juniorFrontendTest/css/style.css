@@ -5,21 +5,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 
 .wrapper {
     width: 70%;
-    height:150px;
+    height: 150px;
     display: flex;
-    border: 1px solid black;
+    border-radius:5px;
     background: white;
 }
 
-.wrapper:active{
-    height: 700px;
-}
+
 
 #fieldSearch {
     width: 50%;
@@ -56,8 +53,8 @@ form {
 }
 
 
-.search-button{ƒ
-    margin-left:2%;
+.search-button {
+    ƒ margin-left: 2%;
     border-radius: 2px;
 }
 
@@ -81,11 +78,16 @@ form {
     border-radius: 50%;
 }
 
+#users {
+    border: 1px solid black;
+    list-style: none;
+    width:50%;
+}
 
 
 ul {
     padding: 1%;
-    border: 1px solid black;
+    
     border-radius: 5px;
-    align-items:center;
+    align-items: center;
 }

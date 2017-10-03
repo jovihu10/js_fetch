@@ -1,5 +1,3 @@
-
-
 //New way
 //Esta es una funcion entera que se activará cuando cliquemos el bottón
 var getData = function() {
@@ -26,12 +24,11 @@ var getData = function() {
             let users = data;
             console.log(users)
             const name = `${data.name}`
-            console.log(`${data.name} (${data.id})`)
-            console.log(`${data.followers_url} (${data.repos_url})`)
-            console.log(`${data.gists_url} (${data.starred_url})`)
-            console.log(`${data.followers_url.login})`)
+            //console.log(`${data.name} (${data.id})`)
+            //console.log(`${data.followers_url} (${data.repos_url})`)
+            //console.log(`${data.gists_url} (${data.starred_url})`)
+            //console.log(`${data.followers_url.login})`)
 
-            console.log(users)
             let li = createNode('li'),
                 img = createNode('img'),
                 span = createNode('span');
@@ -66,4 +63,3 @@ var getData = function() {
         .catch(error => console.error(error));
 
 }
-
